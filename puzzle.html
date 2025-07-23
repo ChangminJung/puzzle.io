@@ -160,13 +160,11 @@ body{
         }, 1000)
     }
 
-    let imgName = prompt("이미지 주소를 입력해주세요. \n입력하지 않을 시 기본 이미지가 제공 됩니다.")
-    if(imgName == null || imgName== "" ){
-        imgName = 'https://www.visitseoul.net/comm/getImage?srvcId=MEDIA&parentSn=24068&fileTy=MEDIA&fileNo=1';
-    }
+    let imgName = 'https://www.visitseoul.net/comm/getImage?srvcId=MEDIA&parentSn=24068&fileTy=MEDIA&fileNo=1';
+    
     
 
-    let num = Number(prompt("퍼즐 개수를 정수(n)로 입력해주세요(nXn)"));
+    let num = 4;
     
     let a = document.getElementById('aaa1');
     let border = 2;
